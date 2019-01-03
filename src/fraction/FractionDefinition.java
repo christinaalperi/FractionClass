@@ -1,4 +1,4 @@
-package main;
+package fraction;
 
 public class FractionDefinition {
 	int numerator;
