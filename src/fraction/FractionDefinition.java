@@ -5,11 +5,17 @@ public class FractionDefinition {
 	int denominator; 
 	
 	public FractionDefinition (int a, int b) {
-		numerator = a;
-		denominator = b;
+		this.numerator = a;
+		this.denominator = b;
 	}
 
+	public String toString() {
+		return numerator +"/"+ denominator ;
+	}
 	
+	public int Divide () {
+		return (this.numerator / this.denominator);
+	}
 	
 	
 }
